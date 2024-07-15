@@ -151,11 +151,15 @@ require (
 	github.com/imdario/mergo v0.3.12 // indirect
 	github.com/ipfs/go-cid v0.4.1 // indirect
 	github.com/ipfs/go-log/v2 v2.5.1 // indirect
+	github.com/jackc/pgpassfile v1.0.0 // indirect
+	github.com/jackc/pgservicefile v0.0.0-20221227161230-091c0ba34f0a // indirect
+	github.com/jackc/pgx/v5 v5.5.5 // indirect
+	github.com/jackc/puddle/v2 v2.2.1 // indirect
 	github.com/jackpal/go-nat-pmp v1.0.2 // indirect
 	github.com/jbenet/go-context v0.0.0-20150711004518-d14ea06fba99 // indirect
 	github.com/jbenet/go-temp-err-catcher v0.1.0 // indirect
 	github.com/jinzhu/gorm v1.9.2 // indirect
-	github.com/jinzhu/inflection v0.0.0-20180308033659-04140366298a // indirect
+	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/jinzhu/now v1.1.5 // indirect
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
 	github.com/josharian/native v0.0.0-20200817173448-b6b71def0850 // indirect
@@ -181,6 +185,7 @@ require (
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/mattn/go-pointer v0.0.1 // indirect
+	github.com/mattn/go-sqlite3 v1.14.22 // indirect
 	github.com/matttproud/golang_protobuf_extensions/v2 v2.0.0 // indirect
 	github.com/mdlayher/genetlink v1.1.0 // indirect
 	github.com/mdlayher/netlink v1.4.2 // indirect
@@ -263,12 +268,12 @@ require (
 	gopkg.in/intercom/intercom-go.v2 v2.0.0-20210504094731-2bd1af0ce4b2 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
+	gorm.io/driver/postgres v1.5.9 // indirect
+	gorm.io/driver/sqlite v1.5.6 // indirect
+	gorm.io/gorm v1.25.11 // indirect
 	honnef.co/go/tools v0.4.2 // indirect
 	lukechampine.com/blake3 v1.2.1 // indirect
 	rsc.io/tmplfunc v0.0.3 // indirect
 )
 
-replace (
-	golang.zx2c4.com/wireguard => github.com/mysteriumnetwork/wireguard-go v0.0.0-20240416113031-406b13e8996a
-	//gvisor.dev/gvisor => github.com/mysteriumnetwork/gvisor v0.0.0-20240206094932-ff91e662b9e8
-)
+replace golang.zx2c4.com/wireguard => github.com/mysteriumnetwork/wireguard-go v0.0.0-20240416113031-406b13e8996a
